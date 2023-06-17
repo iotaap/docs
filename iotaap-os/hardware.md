@@ -10,9 +10,9 @@ dateCreated: 2023-06-17T17:15:36.312Z
 
 # IoTaaP OS Required Hardware
 
-!!! info "ESP32 SoC"
-    IoTaaP OS is currently fully optimized and developed to work with ESP32 SoC by [Espressif](https://www.espressif.com/en/products/socs/esp32/overview). 
+> IoTaaP OS is currently fully optimized and developed to work with ESP32 SoC by [Espressif](https://www.espressif.com/en/products/socs/esp32/overview). 
     Although, there is a possibility for porting IoTaaP OS to other sillicons we strongly recommend using it on ESP32.
+{.is-info}
 
 ## Supported ESP32 modules
 
