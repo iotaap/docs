@@ -2,7 +2,7 @@
 title: IoTaaP OS - Introduction
 description: 
 published: true
-date: 2023-06-17T16:46:58.520Z
+date: 2023-06-17T16:48:05.222Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-17T16:33:34.758Z
