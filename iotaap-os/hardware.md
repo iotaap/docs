@@ -2,7 +2,7 @@
 title: Hardware
 description: 
 published: true
-date: 2023-06-17T17:15:36.312Z
+date: 2023-06-17T17:19:33.504Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-17T17:15:36.312Z
@@ -45,4 +45,4 @@ IoTaaP OS uses predefined peripheral configuration, and we strongly recommend to
 Although IoTaaP OS (from version 4) uses internal FAT filesystem and will work without external SD card, we recommend using external SD card in order to enable features such as local data backup (data will be saved locally if connection
 is lost, and restored after) and system logs. You can use any SD card for this purpose, but be sure to stick to the following wiring:
 
-![esp32-sd-card-wiring.jpg](/esp32-sd-card-wiring.jpg)
+![esp32-sd-card-wiring.jpg](/assets/esp32-sd-card-wiring.jpg)
