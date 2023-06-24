@@ -2,7 +2,7 @@
 title: Logs via MQTT
 description: 
 published: true
-date: 2023-06-23T15:45:55.557Z
+date: 2023-06-23T15:45:57.846Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-23T15:45:55.557Z

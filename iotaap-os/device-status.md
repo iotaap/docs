@@ -2,7 +2,7 @@
 title: Device Status
 description: 
 published: true
-date: 2023-06-23T15:47:16.136Z
+date: 2023-06-23T15:47:18.613Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-23T15:47:16.136Z

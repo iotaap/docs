@@ -2,7 +2,7 @@
 title: License
 description: 
 published: true
-date: 2023-06-23T15:57:39.091Z
+date: 2023-06-23T15:57:42.756Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-23T15:57:39.091Z

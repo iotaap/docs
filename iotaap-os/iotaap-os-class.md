@@ -2,7 +2,7 @@
 title: IoTaaP_OS Class
 description: 
 published: true
-date: 2023-06-23T15:50:19.211Z
+date: 2023-06-23T15:50:21.708Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-23T15:50:19.211Z

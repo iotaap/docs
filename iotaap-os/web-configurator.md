@@ -2,7 +2,7 @@
 title: Web configurator
 description: 
 published: true
-date: 2023-06-23T15:39:29.723Z
+date: 2023-06-23T15:39:33.814Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-23T15:39:29.723Z

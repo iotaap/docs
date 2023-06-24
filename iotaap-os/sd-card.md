@@ -2,7 +2,7 @@
 title: SD Card
 description: 
 published: true
-date: 2023-06-23T15:34:37.846Z
+date: 2023-06-23T15:34:40.931Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-23T15:34:37.846Z

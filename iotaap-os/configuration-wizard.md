@@ -2,7 +2,7 @@
 title: Configuration wizard
 description: 
 published: true
-date: 2023-06-23T15:41:16.215Z
+date: 2023-06-23T15:41:19.346Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-23T15:41:16.215Z
