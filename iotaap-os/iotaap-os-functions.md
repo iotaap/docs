@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2023-06-24T12:23:58.025Z
+date: 2023-06-24T12:24:50.899Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-23T15:54:38.629Z
@@ -17,7 +17,7 @@ Starts IoTaaP OS. Has to be called before any other function
 ## void startWifi()
 Connects device to WiFi AP 
 
-### void startMqtt()
+## void startMqtt()
 
 #### Parameters
 
@@ -33,7 +33,7 @@ Connects device to WiFi AP
     }   
 ```
 
-### int deviceCloudPublish()
+## int deviceCloudPublish()
 Publishes data to device topic (`/<username>/devices/<device-id>/<topic>`)
 
 #### Parameters
@@ -50,7 +50,7 @@ Publishes data to device topic (`/<username>/devices/<device-id>/<topic>`)
 > To provide optimal performance system uses Queuing for publishing data. In most cases data will be published immediately, but if multiple publishing functions are called without delay between your data could be added to the queue. Queued data will be automatically published as fast as possible. 
 {.is-info}
 
-### int basicCloudPublish()
+## int basicCloudPublish()
 Publishes data to the topic (`/<username>/<topic>`)
 
 #### Parameters
@@ -69,7 +69,7 @@ Publishes data to the topic (`/<username>/<topic>`)
 {.is-info}
 
 
-### int basicSubscribe()
+## int basicSubscribe()
 Subscribes to the topic
 
 #### Parameters
@@ -86,7 +86,7 @@ Subscribes to the topic
 {.is-info}
 
 
-### int basicUnsubscribe()
+## int basicUnsubscribe()
 Unsubscribes from the topic
 
 #### Parameters
@@ -103,7 +103,7 @@ Unsubscribes from the topic
 {.is-info}
 
 
-### int deviceCloudPublishParam()
+## int deviceCloudPublishParam()
 Creates structured parameter and publishes it to params topic (`/<username>/devices/<device-id>/params`)
 
 #### Parameters
@@ -138,14 +138,14 @@ Creates structured parameter and publishes it to params topic (`/<username>/devi
 > To provide optimal performance system uses Queuing for publishing data. In most cases data will be published immediately, but if multiple publishing functions are called without delay between your data could be added to the queue. Queued data will be automatically published as fast as possible. 
 {.is-info}
 
-### void writeToSystemLogs()
+## void writeToSystemLogs()
 Writes data to the system log with `USER` tag
 
 #### Parameters
 
 - **data** - Data to be logged
 
-### bool getSystemParameter()
+## bool getSystemParameter()
 Gets system parameter from default.cfg on internal filesystem
 
 #### Parameters
@@ -156,7 +156,7 @@ Gets system parameter from default.cfg on internal filesystem
 #### Returns
 - `(bool)` Returns `true` if parameter exists or `false` if not
 
-### void checkForUpdates()
+## void checkForUpdates()
 Triggers checking for updates. Calling this function will schedule checking for updates. Updates will be usually checked within a
 few milliseconds. 
 
