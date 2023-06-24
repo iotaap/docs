@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2023-06-23T15:54:41.537Z
+date: 2023-06-24T12:23:58.025Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-23T15:54:38.629Z
@@ -10,11 +10,11 @@ dateCreated: 2023-06-23T15:54:38.629Z
 
 # IoTaaP OS functions
 
-### void start()
+## void start()
 Starts IoTaaP OS. Has to be called before any other function
 
 
-### void startWifi()
+## void startWifi()
 Connects device to WiFi AP 
 
 ### void startMqtt()
