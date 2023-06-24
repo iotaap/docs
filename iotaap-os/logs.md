@@ -2,7 +2,7 @@
 title: Logs
 description: 
 published: true
-date: 2023-06-23T15:44:37.011Z
+date: 2023-06-24T11:50:11.665Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-23T15:44:34.587Z
@@ -29,7 +29,7 @@ System can write multiple log types, categorized by tags
 ## Reading logs 
 System logs can be checked by plugging SD card to the SD card reader and checking logs using log explorer (e.g. glogg), however this approach will cause downtime, since SD card has to be removed from the device.
 
-Another way of reading logs is by using Serial Interface. Serial Interface dongle should be connected with PC usign mini USB cable and then connected with the board (otherwise it will cause device to reboot). Standard serial terminal (e.g. Termite) can be used to communicate with the device. 
+Another way of reading logs is by using Serial Interface. Serial Interface dongle should be connected with PC using mini USB cable and then connected with the board (otherwise it will cause device to reboot). Standard serial terminal (e.g. Termite) can be used to communicate with the device. 
 
 By default real time logging is disabled (log messages will not be printed to the serial interface, but will be saved to the SD card if present).A few simple commands can be used in order to read and manage logs in real time.
 
