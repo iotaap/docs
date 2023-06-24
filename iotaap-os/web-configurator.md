@@ -2,7 +2,7 @@
 title: Web configurator
 description: 
 published: true
-date: 2023-06-23T15:39:33.814Z
+date: 2023-06-24T11:42:17.908Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-23T15:39:29.723Z
@@ -31,12 +31,10 @@ During Web configurator operation, onboard LED will blink in a predefined patter
 
 Connect to your IoTaaP SSID and head to http://192.168.1.8, this will open the IoTaaP Web configurator:
 
-![alt text](https://community.iotaap.io/uploads/default/original/1X/d73cc88337efc226885ed22b0178aa183bb20865.png "IoTaaP ESP32 Web Configurator")
+![iotaap_web_configurator.png](/assets/iotaap_web_configurator.png)
 
 Enter your parameters from the IoTaaP Console, click **Confirm**, and your device will automatically restart and start operating with the new configuration.
 
-![alt text](https://community.iotaap.io/uploads/default/original/1X/9e20567c5fb6db23ff856bac641a2c643b1dd147.png "ESP32 Web Configurator success")
-
 ## CA certificate
 
-You can get the certificate [here](https://docs.iotaap.io/docs-iotaap-os/certificates/).
+You can get the certificate [here](/iotaap-os/certificates).
