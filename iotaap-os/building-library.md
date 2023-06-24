@@ -2,7 +2,7 @@
 title: Building the Library
 description: 
 published: true
-date: 2023-06-23T15:56:35.851Z
+date: 2023-06-24T13:17:10.964Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-23T15:56:33.163Z
@@ -16,7 +16,7 @@ for custom builds.**
 ## Versioning
 This library uses semantic versioning. Before building procedure library version in `library.json` must be updated. 
 
-CHANGELOG.md must be also updated by describing changes. 
+CHANGELOG must be also updated by describing changes. 
 
 Finally, in `iotaap_os\src\system\definitions.h` parameter `LIB_VERSION` has to be updated.
 
