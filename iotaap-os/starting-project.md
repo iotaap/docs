@@ -2,7 +2,7 @@
 title: Starting project
 description: 
 published: true
-date: 2023-06-17T16:41:19.978Z
+date: 2023-06-24T13:19:03.952Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-17T16:40:39.388Z
@@ -21,21 +21,21 @@ You have to declare library dependencies in your `platformio.ini` file, by using
 ```
 [env:myenv]
 platform = espressif32
-board = iotaap_magnolia
+board = esp32dev
 framework = arduino
 
 lib_deps =
 
      # RECOMMENDED
      # Accept new functionality in a backwards compatible manner and patches
-     iotaap/IoTaaP OS @ ^4.0.0
+     iotaap/IoTaaP OS @ ^5.0.0
 
      # Accept only backwards compatible bug fixes
      # (any version with the same major and minor versions, and an equal or greater patch version)
-     iotaap/IoTaaP OS @ ~4.0.0
+     iotaap/IoTaaP OS @ ~5.0.0
 
      # The exact version
-     iotaap/IoTaaP OS @ 4.0.0
+     iotaap/IoTaaP OS @ 5.0.0
 
 ```
 
