@@ -2,7 +2,7 @@
 title: IoTaaP_OS Class
 description: 
 published: true
-date: 2023-06-23T15:50:21.708Z
+date: 2023-06-24T12:22:20.190Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-23T15:50:19.211Z
@@ -29,7 +29,10 @@ dateCreated: 2023-06-23T15:50:19.211Z
 | basicCloudPublish       | int      | Publishes data to the topic (`/<username>/<topic>`)                                                      |
 | basicSubscribe          | int      | Subscribes to the topic                                                                                  |
 | basicUnsubscribe        | int      | Unsubscribes from the topic                                                                              |
+| customSubscribe | int | Subscribes to any topic (even from other user, if you have access to it) |
+| customUnsubscribe | int | Unsubscribes from custom topic |
 | deviceCloudPublishParam | int      | Creates structured parameter and publishes it to params topic (`/<username>/devices/<device-id>/params`) |
 | writeToSystemLogs       | void     | Writes data to the system log                                                                            |
 | getSystemParameter      | bool     | Gets system parameter from default.cfg                                                                   |
 | checkForUpdates         | void     | Triggers checking for updates                                                                            |
+| restart | void | Restarts the device |
