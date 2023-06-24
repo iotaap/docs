@@ -2,7 +2,7 @@
 title: Configuration wizard
 description: 
 published: true
-date: 2023-06-23T15:41:19.346Z
+date: 2023-06-24T11:45:41.051Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-23T15:41:16.215Z
@@ -12,11 +12,11 @@ dateCreated: 2023-06-23T15:41:16.215Z
 
 Configuration Wizard is advanced feature used for parameter configuration via Serial interface. All parameters from default.cfg can be configured by using the following command:
 
-> For easyer configuration, that doesn't require serial connection or terminal, we recommend using IoTaaP OS Web configurator.
+  - **set-system** - wizard to set all parameters from system configuration data
+  
+  > For easier configuration, that doesn't require serial connection or terminal, we recommend using [IoTaaP OS Web configurator](/iotaap-os/web-configurator).
 {.is-info}
 
-
-  - **set-system** - wizard to set all parameters from system configuration data
 
 ## Using commands
 Simply type `set-system` command into your serial interface. Wizard will start with the following output:
