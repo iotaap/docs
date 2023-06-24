@@ -2,7 +2,7 @@
 title: Web configurator
 description: 
 published: true
-date: 2023-06-24T11:42:17.908Z
+date: 2023-06-24T11:44:22.300Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-23T15:39:29.723Z
@@ -10,7 +10,7 @@ dateCreated: 2023-06-23T15:39:29.723Z
 
 # IoTaaP OS Web Configurator
 
-[IoTaaP OS](https://docs.iotaap.io/docs-iotaap-os/) Web Configurator is an amazing feature that gives you the possibility to configure your **ESP32** based device
+IoTaaP OS Web Configurator is an amazing feature that gives you the possibility to configure your **ESP32** based device
 without cables, serial port connections and similar.
 
 ## Entering IoTaaP OS Web Configurator
