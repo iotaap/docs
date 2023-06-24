@@ -2,7 +2,7 @@
 title: Internal FS
 description: 
 published: true
-date: 2023-06-17T17:16:39.529Z
+date: 2023-06-24T11:24:55.821Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-17T17:16:37.089Z
@@ -15,7 +15,7 @@ Starting from IoTaaP OS version 4, system uses internal FAT filesystem for stori
 ## IoTaaP OS Web Configurator
 
 All system configuration can be set-up using IoTaaP OS Web configurator. During initial boot (first boot) system will automatically
-start web configurator. System parameters can be also adjusted by using [serial configurator](config-wizard.md).
+start web configurator. System parameters can be also adjusted by using [configuration wizard](/iotaap-os/configuration-wizard).
 
 ## Custom partitions
 
