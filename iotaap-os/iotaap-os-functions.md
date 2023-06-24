@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2023-06-24T12:24:50.899Z
+date: 2023-06-24T13:03:08.393Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-23T15:54:38.629Z
@@ -169,3 +169,27 @@ restart.
 
 `checkForUpdates()` function can be called from main code when it is safe for your application to run update check. Usual aproach would
 be placing this function in MQTT callback function to be triggered when data is published to specific MQTT topic to which device is subscribed.
+
+## int customSubscribe()
+Subscribes to any topic (even from other user, if you have access to it). This function is used in case you want to access some IoTaaP service, or topic owned by other user. 
+This is usually the case when you are using Topic Access Control (TAC) or marketplace on IoTaaP Console.
+
+#### Parameters
+
+- **uTopic** - Topic name to subscribe to
+
+#### Returns
+- `(int)` Returns 0 if successfull
+
+## int customUnsubscribe()
+Unsubscribes from any topic, even if it is from other user.
+
+#### Parameters
+
+- **uTopic** - Topic name to unsubscribe from
+
+#### Returns
+- `(int)` Returns 0 if successfull
+
+## void restart()
+Calling this function during runtime will reboot the device
