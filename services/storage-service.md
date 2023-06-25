@@ -2,7 +2,7 @@
 title: Storage service
 description: 
 published: true
-date: 2023-06-25T18:33:30.496Z
+date: 2023-06-25T18:34:05.604Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-25T18:06:29.790Z
