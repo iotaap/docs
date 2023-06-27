@@ -2,7 +2,7 @@
 title: OTA Updates
 description: 
 published: true
-date: 2023-06-27T08:28:50.340Z
+date: 2023-06-27T08:31:23.308Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-23T15:48:31.737Z
@@ -10,7 +10,7 @@ dateCreated: 2023-06-23T15:48:31.737Z
 
 # OTA Update
 
-> From IoTaaP OS version 4, remote flashing is supported. By using IoTaaP console firmware can be flashed remotely in real time.
+> From IoTaaP OS version 4, remote flashing is supported. By using IoTaaP console firmware can be flashed remotely in real time. More info can be found in the [tutorial](https://docs.iotaap.io/en/tutorials/iotaap-cloud-remote-flash).
 {.is-info}
 
 
