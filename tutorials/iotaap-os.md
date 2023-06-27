@@ -2,7 +2,7 @@
 title: IoTaaP OS
 description: 
 published: true
-date: 2023-06-24T14:27:33.601Z
+date: 2023-06-27T18:38:08.926Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-24T14:27:33.601Z
@@ -11,6 +11,10 @@ dateCreated: 2023-06-24T14:27:33.601Z
 # IoTaaP OS
 
 The unique system built for ESP32 SoC which provides everything you need to successfully develop, deploy and manage your IoT devices.
+
+Check out a short intro video:
+
+[![IoTaaP OS](http://img.youtube.com/vi/YdkIyzSUK1I/0.jpg)](https://www.youtube.com/watch?v=YdkIyzSUK1I&ab_channel=IoTaaP-IoTPlatform "IoTaaP OS")
 
 ## Embedded working environment
 **Platformio** is a really well known open source ecosystem for IoT development. Most advanced features are remote unit testing and firmware updates, which means that you will learn how to use pretty powerful cross-platform IDE.
