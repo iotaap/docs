@@ -2,7 +2,7 @@
 title: Starting project
 description: 
 published: true
-date: 2023-06-24T13:19:03.952Z
+date: 2023-06-27T08:41:31.980Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-17T16:40:39.388Z
@@ -39,4 +39,4 @@ lib_deps =
 
 ```
 
-More info about Library installation using PlatformIO can be found [here](https://platformio.org/lib/show/11733/IoTaaP/installation).
+More info about Library installation using PlatformIO can be found [here](https://registry.platformio.org/libraries/iotaap/IoTaaP%20OS/installation).
