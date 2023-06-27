@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2023-06-24T13:03:08.393Z
+date: 2023-06-27T07:35:16.980Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-23T15:54:38.629Z
@@ -190,6 +190,34 @@ Unsubscribes from any topic, even if it is from other user.
 
 #### Returns
 - `(int)` Returns 0 if successfull
+
+## int smsServiceSend()
+Initiates sending SMS using IoTaaP SMS service
+
+#### Parameters
+
+- **token** - IoTaaP Link Secret
+- **receiver** - Receivers phone number including country code
+- **content** - Content of SMS message, up to 120 characters
+- **callbackTopic** - (optional) Topic for listening to responses from the service
+
+#### Returns
+- `(int)` Returns 0 if successfull
+- **String** with response status on your **callbackTopic** (if defined)
+
+## int storageServiceStore()
+Stores one point to the IoTaaP Storage service
+
+#### Parameters
+
+- **token** - IoTaaP Link Secret
+- **name** - Variable name
+- **value** - Variable numeric value
+- **callbackTopic** - (optional) Topic for listening to responses from the service
+
+#### Returns
+- `(int)` Returns 0 if successfull
+- **String** with response status on your **callbackTopic** (if defined)
 
 ## void restart()
 Calling this function during runtime will reboot the device
