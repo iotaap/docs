@@ -2,7 +2,7 @@
 title: Storing data using Storage service
 description: 
 published: true
-date: 2023-06-27T08:10:38.448Z
+date: 2023-06-27T08:16:35.519Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-27T08:10:38.448Z
@@ -110,10 +110,32 @@ void loop()
 
 This function is repeated constantly, and it will read the temperature from our BME280 sensor and store it in `temperatureC` variable. Next, we will use `iotaapOs.storageServiceStore()` function to store our reading to the IoTaaP Storage. 
 
-Finally, we will use `iotaapOs.smsServiceSend()` function to send the SMS using IoTaaP SMS service. 
-
 > Do not forget to **update your token** and **update your callbackTopic**. Also your must have permission to listen on your callback topic.
 {.is-info}
+
+## Reading from IoTaaP Storage
+We will use Postman to read from IoTaaP Storage. This step is described in detail [**here**](https://docs.iotaap.io/en/services/storage-service#retrieving-data).
+
+After populating some data from our sensor, we will get the following response:
+
+```JSON
+{
+    "data": [
+        {
+            "time": "2023-06-27T18:14:20.364Z",
+            "value": 26.32
+        },
+        {
+            "time": "2023-06-27T18:14:25.364Z",
+            "value": 27.32
+        },
+        {
+            "time": "2023-06-27T18:14:30.364Z",
+            "value": 28.14
+        }
+    ]
+}
+```
 
 ## Complete code
 Below you can find the complete code for this example.
