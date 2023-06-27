@@ -2,7 +2,7 @@
 title: Building the Library
 description: 
 published: true
-date: 2023-06-24T13:17:10.964Z
+date: 2023-06-27T08:45:30.569Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-23T15:56:33.163Z
@@ -22,10 +22,11 @@ Finally, in `iotaap_os\src\system\definitions.h` parameter `LIB_VERSION` has to 
 
 ## Building procedure
 1. Position your terminal to `iotaap_os` directory (where *library.json* is located)
-2. Execute the following command: `pio package pack --output releases/`
-3. This command will generate library package in `releases` directory
+2. Execute the following command: `pio pkg pack`
+3. This command will generate library package in the current directory
 
-## CI/CD
-CI and CD are handled by internally hosted Jenkins instance. Based on the `Jenkinsfile` new Jenkins Job will be started
-on any Pull request (and all checks have to pass before it can be merged with `master` branch) and on every push to any
-branch. 
+## Testing
+Testing is handled by GitHub Actions. Based on the `build.yml` new Build will be started on any Pull request (and all checks have to pass before it can be merged with `master` branch).
+
+## Current build status
+[![IoTaaP OS Build](https://github.com/iotaap/iotaap-os/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/iotaap/iotaap-os/actions/workflows/build.yml)
