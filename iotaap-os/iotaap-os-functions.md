@@ -2,7 +2,7 @@
 title: Functions
 description: 
 published: true
-date: 2023-06-27T07:35:16.980Z
+date: 2023-06-27T07:39:47.888Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-23T15:54:38.629Z
@@ -205,6 +205,10 @@ Initiates sending SMS using IoTaaP SMS service
 - `(int)` Returns 0 if successfull
 - **String** with response status on your **callbackTopic** (if defined)
 
+> If **callbackTopic** is defined, device will automatically subscribe to the topic.
+{.is-info}
+
+
 ## int storageServiceStore()
 Stores one point to the IoTaaP Storage service
 
@@ -218,6 +222,9 @@ Stores one point to the IoTaaP Storage service
 #### Returns
 - `(int)` Returns 0 if successfull
 - **String** with response status on your **callbackTopic** (if defined)
+
+> If **callbackTopic** is defined, device will automatically subscribe to the topic.
+{.is-info}
 
 ## void restart()
 Calling this function during runtime will reboot the device
