@@ -2,7 +2,7 @@
 title: Starting project
 description: 
 published: true
-date: 2023-06-27T08:41:31.980Z
+date: 2023-06-27T08:50:42.862Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-17T16:40:39.388Z
@@ -10,7 +10,7 @@ dateCreated: 2023-06-17T16:40:39.388Z
 
 # Starting a new IoTaaP OS project using PlatformIO
 
-We recommend you go through the example project that is available in the examples folder, and in IoTaaP OS [tutorial](https://docs.iotaap.io/docs-tutorials/iotaap-os/).
+We recommend you go through the example project that is available in the examples folder, and in IoTaaP OS [tutorial](https://docs.iotaap.io/en/iotaap-os/Introduction).
 
 ## Installing IoTaaP OS using PlatformIO
 
