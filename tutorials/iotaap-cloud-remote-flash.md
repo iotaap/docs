@@ -2,7 +2,7 @@
 title: Remote Flash
 description: 
 published: true
-date: 2023-06-24T15:23:48.623Z
+date: 2023-06-27T08:38:37.312Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-24T15:23:48.623Z
@@ -23,11 +23,11 @@ but if you are using your own solution then you first have to compile your code 
 
 First you have to **Build** your firmware by clicking on the checkmark icon in PlatformIO interface
 
-![alt text](https://files.iotaap.io/assets/iotaap-tutorials/remote-flash/compile.PNG "Compile code")
+![compile.png](/tutorials/compile.png)
 
 After successfull compilation, your **firmware.bin** will be available under `.pio/build/release` directory
 
-![alt text](https://files.iotaap.io/assets/iotaap-tutorials/remote-flash/firmware_bin.PNG "firmware.bin")
+![firmware_bin.png](/tutorials/firmware_bin.png)
 
 After successfull remote flashing, your device will restart, and you will see new **Firmware version** in the device details.
 
@@ -41,15 +41,15 @@ you will need to push new updates instantly, especially during development, if y
 Select your device in IoTaaP Console. You will see your device details and MQTTS connection menu, where you have to connect to the **same** MQTTS server as your device. If your device is turned on, you will be able
 to see the device status, firmware version and other parameters. 
 
-![alt text](https://files.iotaap.io/assets/iotaap-tutorials/remote-flash/device_status.PNG "ESP32 device status")
+![device_status.png](/tutorials/device_status.png)
 
 Next, you have to drag and drop your **firmware.bin** to the upload field, and enter your firmware version. **Version should match your version defined in the main code** `IoTaaP_OS iotaapOs("1.0.7");` After uploading, click on the **Submit** button, and your firmware will be ready for flashing.
 
-![alt text](https://files.iotaap.io/assets/iotaap-tutorials/remote-flash/firmware_uploaded_device.PNG "Firmware uploaded")
+![firmware_uploaded_device.png](/tutorials/firmware_uploaded_device.png)
 
 You will notice that **Firmware version** field will change color to red, which indicates that firmware on the device is different then the firmware you have uploaded. Click on the **Flash** button, to start the update procedure. 
 
-![alt text](https://files.iotaap.io/assets/iotaap-tutorials/remote-flash/flash_button.PNG "Flash button")
+![flash_button.png](/tutorials/flash_button.png)
 
 ## Group remote flash
 
@@ -60,15 +60,15 @@ If you have multiple devices with the same firmware, you can add them to a **Gro
 Select your group of devices in the console by clicking on the green action button (Devices List). This will open list of devices that are currently available in your group. In order to start flashing procedure, you have
 to connect to the **same** MQTTS server as your device. 
 
-![alt text](https://files.iotaap.io/assets/iotaap-tutorials/remote-flash/mqtt_server_connect.PNG "MQTT Server Connect")
+![mqtt_server_connect.png](/tutorials/mqtt_server_connect.png)
 
 Next, drag and drop your **firmware.bin** to the upload field in the console, and enter your firmware version. **Version should match your version defined in the main code** `IoTaaP_OS iotaapOs("1.0.7");` After uploading, click on the **Submit** button, and your firmware will be ready for flashing.
 
-![alt text](https://files.iotaap.io/assets/iotaap-tutorials/remote-flash/firmware_uploaded.PNG "Firmware uploaded")
+![firmware_uploaded.png](/tutorials/firmware_uploaded.png)
 
 Now you are ready to start your group flashing by clicking on the **Flash** button. Your device will start the update procedure instantly. 
 
-![alt text](https://files.iotaap.io/assets/iotaap-tutorials/remote-flash/flash_button.PNG "Flash button")
+![flash_button.png](/tutorials/flash_button.png)
 
 You can monitor update status, and overall device status in device details interface.
 
@@ -78,7 +78,7 @@ Please ensure that you enter the same version to the **Version** field in the co
 
 Also, after successfull update and restart, at each IoTaaP OS boot, you will be able to see the current firmware version, as well as IoTaaP OS version
 
-![alt text](https://files.iotaap.io/assets/iotaap-tutorials/remote-flash/web-configurator-credentials.PNG "IoTaaP OS - Serial output")
+![web-configurator-credentials.png](/tutorials/web-configurator-credentials.png)
 
 > Please note that you will not be able to flash single device if it's a part of the group, even if you remove it from the group in the console. Device can be configured as a stand-alone device or as a part of the group. This configuration can be updated using IoTaaP Web Configurator.
 {.is-info}
