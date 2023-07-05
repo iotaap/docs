@@ -2,7 +2,7 @@
 title: Storage service
 description: 
 published: true
-date: 2023-07-05T10:44:23.205Z
+date: 2023-07-05T13:42:10.771Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-25T18:06:29.790Z
@@ -63,6 +63,7 @@ Data from IoTaaP Storage can be retrieved by using REST API endpoint, and it can
 - **range** - starting point in time for retreiving your data
 - **name** - name of the parameter
 - **device** - device ID
+- **format** - (optional) response format (**csv** / **json**)
 
 > Please note that **range** parameter has to be negative (**TIME NOW (-range)**), since data is retreived **range** units in the past up to the **newest** point record. Range can be in **seconds**, **minutes**, **hours**, **days** and **years** (e.g. **-2s**, **-5m**, **-10h**, **-6d**, **-1y**).
 {.is-info}
@@ -71,38 +72,50 @@ Data from IoTaaP Storage can be retrieved by using REST API endpoint, and it can
 {.is-warning}
 
 
-In this example our endpoint will be: `https://storage.iotaap.io/v1/list?range=-5m&name=temperature&device=6475d98175ef35ab92515b28`
+In this example our endpoint will be: `https://storage.iotaap.io/v1/list?range=-1h&measurements=temperature,humidity&device=649ff245512f9ecbee9efe03`
 
 It will retreive all data points from **-5m (Latest record time -5 minutes)**, and response will be:
 
 ```JSON
 {
-    "data": [
+    "humidity": [
         {
-            "time": "2023-06-25T18:14:22.364Z",
-            "value": 26.32
+            "time": "2023-07-05T12:38:35.328Z",
+            "value": 20
         },
         {
-            "time": "2023-06-25T18:14:23.364Z",
-            "value": 27.32
+            "time": "2023-07-05T12:39:05.376Z",
+            "value": 20
         },
         {
-            "time": "2023-06-25T18:14:24.364Z",
-            "value": 28.14
+            "time": "2023-07-05T12:39:35.423Z",
+            "value": 20
+        }
+    ],
+    "temperature": [
+        {
+            "time": "2023-07-05T12:38:35.328Z",
+            "value": -8.199999809
+        },
+        {
+            "time": "2023-07-05T12:39:05.376Z",
+            "value": -8.199999809
+        },
+        {
+            "time": "2023-07-05T12:39:35.423Z",
+            "value": -9.600000381
         }
     ]
 }
 ```
 
-As you can see, we have our 3 values that were recorded in the past 5 minutes. 
+Each measurement is an array of time and value.
 
 ## Possible issues
-If there is no data, you will receive response with empty **data** array:
+If there is no data, you will receive empty JSON response:
 
 ```JSON
-{
-    "data": []
-}
+{}
 ```
 
 If your **range** is wrong, you will receive the following response:
