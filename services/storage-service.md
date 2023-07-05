@@ -2,7 +2,7 @@
 title: Storage service
 description: 
 published: true
-date: 2023-07-05T13:42:10.771Z
+date: 2023-07-05T13:48:26.247Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-25T18:06:29.790Z
@@ -74,7 +74,7 @@ Data from IoTaaP Storage can be retrieved by using REST API endpoint, and it can
 
 In this example our endpoint will be: `https://storage.iotaap.io/v1/list?range=-1h&measurements=temperature,humidity&device=649ff245512f9ecbee9efe03`
 
-It will retreive all data points from **-5m (Latest record time -5 minutes)**, and response will be:
+It will retreive all data points from **-1h (Latest record time -1 hour)**, and response will be:
 
 ```JSON
 {
@@ -108,8 +108,25 @@ It will retreive all data points from **-5m (Latest record time -5 minutes)**, a
     ]
 }
 ```
-
 Each measurement is an array of time and value.
+
+## CSV 
+In order to retreive CSV response, we have to add `format=csv` in our query parameters. Our call in this example will be: `https://storage.iotaap.io/v1/list?range=-1h&measurements=temperature,humidity&device=649ff245512f9ecbee9efe03&format=csv`
+
+It will retreive all data points from **-1h (Latest record time -1 hour)**, and response will be:
+
+```csv
+time, humidity, temperature
+2023-07-05T12:38:35.328Z, 20, -8.199999809
+2023-07-05T12:39:05.376Z, 20, -8.199999809
+2023-07-05T12:39:35.423Z, 20, -9.600000381
+```
+
+### Response headers
+`'Content-Type', 'text/csv'`
+`'Content-Disposition', 'attachment; filename=data.csv'`
+
+You can handle further processing of this response on your frontend or other application.
 
 ## Possible issues
 If there is no data, you will receive empty JSON response:
