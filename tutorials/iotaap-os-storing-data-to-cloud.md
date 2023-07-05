@@ -2,7 +2,7 @@
 title: Storing data using Storage service
 description: 
 published: true
-date: 2023-06-27T08:16:35.519Z
+date: 2023-07-05T13:50:07.108Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-27T08:10:38.448Z
@@ -120,18 +120,18 @@ After populating some data from our sensor, we will get the following response:
 
 ```JSON
 {
-    "data": [
+    "temperature": [
         {
-            "time": "2023-06-27T18:14:20.364Z",
-            "value": 26.32
+            "time": "2023-07-05T12:38:35.328Z",
+            "value": -8.199999809
         },
         {
-            "time": "2023-06-27T18:14:25.364Z",
-            "value": 27.32
+            "time": "2023-07-05T12:39:05.376Z",
+            "value": -8.199999809
         },
         {
-            "time": "2023-06-27T18:14:30.364Z",
-            "value": 28.14
+            "time": "2023-07-05T12:39:35.423Z",
+            "value": -9.600000381
         }
     ]
 }
