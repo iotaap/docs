@@ -2,7 +2,7 @@
 title: REST service
 description: 
 published: true
-date: 2023-06-25T17:36:07.995Z
+date: 2023-07-05T11:57:52.183Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-25T17:36:07.995Z
