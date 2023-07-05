@@ -2,7 +2,7 @@
 title: Storage service
 description: 
 published: true
-date: 2023-06-25T18:34:05.604Z
+date: 2023-07-05T10:44:23.205Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-25T18:06:29.790Z
@@ -55,6 +55,9 @@ Data from IoTaaP Storage can be retrieved by using REST API endpoint, and it can
 {.is-warning}
 
 **Endpoint (GET)**: `https://storage.iotaap.io/v1/list`
+
+**Headers:**
+- **secret** - your IoTaaP Link Private token
 
 **Query parameters**:
 - **range** - starting point in time for retreiving your data
