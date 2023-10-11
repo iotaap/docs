@@ -2,7 +2,7 @@
 title: Storage service
 description: 
 published: true
-date: 2023-07-05T13:48:26.247Z
+date: 2023-10-11T08:30:45.032Z
 tags: 
 editor: markdown
 dateCreated: 2023-06-25T18:06:29.790Z
@@ -61,7 +61,7 @@ Data from IoTaaP Storage can be retrieved by using REST API endpoint, and it can
 
 **Query parameters**:
 - **range** - starting point in time for retreiving your data
-- **name** - name of the parameter
+- **measurements** - parameters name (comma separated)
 - **device** - device ID
 - **format** - (optional) response format (**csv** / **json**)
 
